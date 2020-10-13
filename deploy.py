@@ -69,7 +69,7 @@ def main():
         if count == 0:
             output = prediction(l)
             st.success("The status is :{}".format(output))
-            if output==1:
+            if output==0:
                  st.markdown(nd_html,unsafe_allow_html=True)
                  st.warning('oh no!! the account will not default the payment next month')
             else:
