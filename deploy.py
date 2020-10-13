@@ -73,7 +73,7 @@ def main():
                  st.markdown(nd_html,unsafe_allow_html=True)
                  st.warning('oh no!! the account will not default the payment next month')
             else:
-                 st.markdown(d_html, unsafe_allow_html=True)'
+                 st.markdown(d_html, unsafe_allow_html=True)
                  st.balloons()
         else:
             st.error('all fields are not filled kindly fill all the data for prediction')
